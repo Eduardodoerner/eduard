@@ -1,10 +1,10 @@
 <?php
     $value = "";
     $result = "";
-    $cookieName1 = "value";
-    $cookieValue1 = "";
-    $cookieName2 = "op";
-    $cookieValue2 = "";
+    $Name1 = "value";
+    $Value1 = "";
+    $Name2 = "op";
+    $Value2 = "";
 
     if (isset($_POST['value1'])) {
         $num = $_POST['value1'];
@@ -33,6 +33,6 @@
 
 <form method="post">
     <center>
-       
+       \\não peguei a parte de estruturar a calculadora\\
     </center>
 </form>
