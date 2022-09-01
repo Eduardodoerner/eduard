@@ -19,29 +19,14 @@
     }
 
     if (isset($_POST[''])) {
-        $cookieValue1 = $_POST['op'];
+        $Value1 = $_POST['op'];
         setcookie($cookieName1,$cookieValue1,time()+(86400 * 30),"/");
 
-        $cookieValue2 = $_POST['op'];
+        $Value2 = $_POST['op'];
         setcookie($cookieName2,$cookieValue2,time()+(86400 * 30),"/");
 
         $num = "";
-    }
 
-    switch($_COOKIE['op']){
-        case "+":
-            $result = $_COOKIE['num'] + $num;
-            break;
-        case "/":
-            $result = $_COOKIE['num'] / $num;
-            break;
-        case "-":
-            $result = $_COOKIE['num'] - $num;
-            break;
-        case "x":
-            $result = $_COOKIE['num'] * $num;
-            break;
-    }
 ?>
 
 <h3>C A L C U L A T O R</h3>
